@@ -1,0 +1,109 @@
+{
+	"timescale_1ms": 1000000000000,
+	"cfg": {
+		"perf_bw_handler": {
+			"nnoc->sctrl": {
+				"axi_s": {
+					"enabled": 1,
+					"unit": "pkt"
+				},
+				"mbrx": {
+					"enabled": 1,
+					"unit": "pkt"
+				}
+			},
+			"npu->sctrl": {
+				"axi_s": {
+					"enabled": 1,
+					"unit": "pkt"
+				},
+				"spm": {
+					"enabled": 1,
+					"unit": "pkt"
+				}
+			},
+			"sctrl->nnoc": {
+				"axi_m": {
+					"enabled": 1,
+					"unit": "pkt"
+				},
+				"mbtx": {
+					"enabled": 1,
+					"unit": "pkt"
+				}
+			},
+			"sctrl->npu": {
+				"axi_m": {
+					"enabled": 1,
+					"unit": "pkt"
+				}
+			}
+		},
+		"perf_lt_handler": {
+			"nnoc->sctrl": {
+				"axi_s": {
+				},
+				"mbrx": {
+				}
+			},
+			"npu->sctrl": {
+				"axi_s": {
+				},
+				"spm": {
+				}
+			},
+			"sctrl->nnoc": {
+				"axi_m": {
+				},
+				"mbtx": {
+				}
+			},
+			"sctrl->npu": {
+				"axi_m": {
+				}
+			}
+		}
+	},
+	"msgs":[
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@880000000 get pkt cnt: 293 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@881000000 get pkt cnt: 192 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@886000000 get pkt cnt: 191 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@887000000 get pkt cnt: 134 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@914000000 get pkt cnt: 140 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@915000000 get pkt cnt: 358 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@916000000 get pkt cnt: 266 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@925000000 get pkt cnt: 358 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@926000000 get pkt cnt: 352 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@927000000 get pkt cnt: 238 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@928000000 get pkt cnt: 226 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@929000000 get pkt cnt: 384 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@936000000 get pkt cnt: 275 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@937000000 get pkt cnt: 149 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@938000000 get pkt cnt: 276 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@939000000 get pkt cnt: 295 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@950000000 get pkt cnt: 288 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@951000000 get pkt cnt: 153 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@962000000 get pkt cnt: 164 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@963000000 get pkt cnt: 154 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1374000000 get pkt cnt: 255 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1375000000 get pkt cnt: 248 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1376000000 get pkt cnt: 269 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1377000000 get pkt cnt: 359 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1378000000 get pkt cnt: 170 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1383000000 get pkt cnt: 231 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1384000000 get pkt cnt: 381 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1385000000 get pkt cnt: 192 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1386000000 get pkt cnt: 137 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1387000000 get pkt cnt: 290 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1388000000 get pkt cnt: 241 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1399000000 get pkt cnt: 196 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1400000000 get pkt cnt: 244 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1411000000 get pkt cnt: 150 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1412000000 get pkt cnt: 238 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1413000000 get pkt cnt: 382 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1414000000 get pkt cnt: 339 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1415000000 get pkt cnt: 323 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1435000000 get pkt cnt: 372 pkt"},
+		{"tn":"perf_bw_handler","hr":"npu->sctrl","nm":"spm","msg":"@1436000000 get pkt cnt: 82 pkt"}
+	]
+}
